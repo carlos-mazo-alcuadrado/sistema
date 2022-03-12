@@ -1,0 +1,20 @@
+[
+
+    {
+        "nombre":"Inicio",
+        "redirect":"/inicio"
+    },
+    
+    {
+        "nombre":"Usuarios",
+        "redirect":"/inicio/usuarios"
+    },
+ 
+    {
+        "nombre":"Reportes",
+        "redirect":"/inicio/reportes"
+ 
+   }
+
+   
+]

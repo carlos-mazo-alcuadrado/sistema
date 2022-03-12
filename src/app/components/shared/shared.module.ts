@@ -1,6 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ReactiveFormsModule } from '@angular/forms';
+
+import { HttpClientModule } from '@angular/common/http';
+
 // angular material
 import { MatSliderModule } from '@angular/material/slider';
 //libreria para los formularios
@@ -12,6 +15,13 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
 //barra de progresiva
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+
+//toolbar
+import {MatToolbarModule} from '@angular/material/toolbar';
+
+
+//iconos
+import {MatIconModule} from '@angular/material/icon';
 
 
 
@@ -26,6 +36,9 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
     ,ReactiveFormsModule
     ,MatSnackBarModule
     ,MatProgressSpinnerModule
+    ,MatToolbarModule
+    ,MatIconModule
+    ,HttpClientModule
   ],
 exports:[
   MatSliderModule
@@ -35,7 +48,9 @@ exports:[
   ,ReactiveFormsModule
   ,MatSnackBarModule
   ,MatProgressSpinnerModule
- 
+  ,MatToolbarModule
+  ,MatIconModule
+  ,HttpClientModule
 
 ]
 
