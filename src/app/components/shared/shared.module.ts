@@ -23,7 +23,27 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 //iconos
 import {MatIconModule} from '@angular/material/icon';
 
+//tablas
+import {MatTableModule} from '@angular/material/table';
 
+
+//tooltips
+import {MatTooltipModule} from '@angular/material/tooltip';
+
+//paginacion
+import {MatPaginatorModule} from '@angular/material/paginator';
+
+//ordenamiento
+import {MatSortModule} from '@angular/material/sort';
+
+//card
+import {MatCardModule} from '@angular/material/card';
+
+// grid
+import {MatGridListModule} from '@angular/material/grid-list';
+
+//select 
+import {MatSelectModule} from '@angular/material/select';
 
 @NgModule({
   declarations: [],
@@ -39,6 +59,13 @@ import {MatIconModule} from '@angular/material/icon';
     ,MatToolbarModule
     ,MatIconModule
     ,HttpClientModule
+    ,MatTableModule
+    ,MatTooltipModule
+    ,MatPaginatorModule
+    ,MatSortModule
+    ,MatCardModule
+    ,MatGridListModule
+    ,MatSelectModule
   ],
 exports:[
   MatSliderModule
@@ -51,6 +78,13 @@ exports:[
   ,MatToolbarModule
   ,MatIconModule
   ,HttpClientModule
+  ,MatTableModule
+  ,MatTooltipModule
+  ,MatPaginatorModule
+  ,MatSortModule
+  ,MatCardModule
+  ,MatGridListModule
+  ,MatSelectModule
 
 ]
 
