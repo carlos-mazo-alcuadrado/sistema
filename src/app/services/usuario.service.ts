@@ -30,4 +30,8 @@ elminarUsuario(index:number){
 }
 
 
+agregarusuario(usuario:Usuario ){
+  this.listUsuarios.unshift(usuario);
+}
+
 }
